@@ -2,18 +2,22 @@ const contacts = [
   {
     id: 1,
     name: "Angela",
+    icon: "A$",
   },
   {
     id: 2,
     name: "Pamela",
+    icon: "P*",
   },
   {
     id: 3,
     name: "Sandra",
+    icon: "S!",
   },
   {
     id: 4,
     name: "Rita",
+    icon: "R#",
   },
 ];
 

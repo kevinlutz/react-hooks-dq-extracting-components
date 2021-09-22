@@ -3,7 +3,7 @@ import Contact from "./Contact";
 
 function Nav() {
   const contactList = contacts.map((contact) => (
-    <Contact name={contact.name} />
+    <Contact name={contact.name} icon={contact.icon} />
   ));
   return (
     <>

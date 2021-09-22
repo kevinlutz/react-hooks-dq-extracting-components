@@ -1,8 +1,8 @@
-function Contact({ name }) {
+function Contact({ name, icon }) {
   return (
     <>
       <li className="contact">
-        <div className="icon">A</div>
+        <div className="icon">{icon}</div>
         {name}
       </li>
     </>
